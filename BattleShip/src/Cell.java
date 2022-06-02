@@ -1,7 +1,7 @@
 //Mya Yoder
-//yoder098
 //Cell.java
 //Instantiates Cell objects
+
 public class Cell {
     private int row; //member variable that holds the row location of the Cell
     private int column; //member variable that hold the column location of the Cell
@@ -44,4 +44,4 @@ public class Cell {
     public String toString(){ //converts Cell's information to a String
         return "The cell is in row "+row+" and column "+column+". It's status is "+status+".";
     }
-}
+} //end Cell class
